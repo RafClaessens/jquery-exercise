@@ -1,0 +1,38 @@
+#text{
+    padding-top: 40px;
+}
+
+
+.myFontFamily{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.redcol{
+    color:red;
+}
+
+.exbar{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 28px;
+    position: fixed;
+}
+
+.redss ol li{
+    color: red;
+}
+
+.randje{
+    border: 5px dotted green;
+}
+
+.positioned{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+}

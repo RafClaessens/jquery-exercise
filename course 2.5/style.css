@@ -1,0 +1,8 @@
+input{
+    background-color: rgb(204, 201, 201);
+}
+
+.bordgr{
+    border: 1px solid green;
+    background-color: white;
+}
