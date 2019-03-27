@@ -1,0 +1,70 @@
+body, html {
+    background-color: #4c5562;
+    color:#fff;
+  }
+  .container{
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      text-align: center;
+  }
+  .btn-round {
+  display: block;
+  background: none;
+  border: 2px solid #FFF;
+  color: #FFF;
+  }
+  
+  .game-wrap {
+    display: block;
+  background: rgba(255, 255, 255, 0.6);
+  border: 3px #FFF solid;
+  margin-top: 100px;
+  padding: 100px 50px 0;
+  height: 500px;
+  }
+  
+  .game-wrap small{
+  margin-bottom: 30px;
+  display: block;
+  }
+  
+  .input-group input {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #enterBtn {
+  width: 200px;
+  }
+  
+  h2, h4 {
+    margin-top: 0;
+  }
+  
+  h2{
+    font-size: 50px;
+  }
+  
+  h4 {
+    margin-bottom: 20px
+  }
+  #startOverBtn {
+    display:none;
+  }
+  
+  h3.gameStatusAlert {
+    font-size: 2em;
+    color:#fff;
+  }
+  
+  h3.gameStatusAlert small {
+    color:#fff !important;
+  }
+  
+  .pos-btn {
+    display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 100px;
+  } 

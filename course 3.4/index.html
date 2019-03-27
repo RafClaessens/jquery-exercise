@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <title>Exercises</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+
+</head>
+<body>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3 game-wrap">
+        <h2 class="text-center">Guess?</h2>
+        <h4 class="text-center">A Number 1 to 100</h4>
+<div class="col-md-12">
+  <div class="input-group">
+   <input type="text" class="form-control input-lg" id="enterNum" placeholder="Enter Number">
+    <span class="input-group-btn">
+      <button class="btn btn-default btn-lg" id="enterBtn" type="button">Enter</button>
+
+    </span>
+
+  </div><!-- /input-group -->
+    <small class="text-center">Use Enter button or Enter/Return Key</small>
+   <h3 class="text-center gameStatusAlert"></h3>
+   <h3 class="attempts text-center"></h3>
+   <span class="pos-btn"> <button class="btn btn-round btn-lg" id="startOverBtn" type="button">Start Over</button></span>
+</div><!-- /.col-lg-6 -->
+</div>
+
+      </div>
+</div>
+
+  <script src="jquery-2.2.4.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

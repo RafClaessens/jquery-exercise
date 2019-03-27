@@ -1,0 +1,48 @@
+td{
+  width: 150px;
+}
+img{
+  margin: 0px 10px;
+  border: 2px solid black
+}
+
+img:hover{
+  border: 2px solid red
+
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.container2{
+
+  text-align: center;
+  border-top: 5px solid gray;
+}
+.centere{
+  text-align: center;
+  text-decoration: underline;
+}
+
+.wrapper {
+  position: relative;
+  padding: 0;
+  display:block;
+}
+
+.text2 {
+  position: absolute;
+  top: 0;
+  left: 30px;
+  color:#f00;
+  font-weight: bold;
+  width: 50px;
+  height: 20px;
+  font-size: 20px;
+}
+
+img {
+  z-index:1;
+}
